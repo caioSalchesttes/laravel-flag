@@ -1,0 +1,28 @@
+{
+    "name": "caiosalchesttes/laravel-flag",
+    "description": "This package adds default fields to tables to save flags as cached",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": ">=8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cos\\LaravelFlag\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/caioSalchesttes/LaravelFlag"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Caio .O",
+            "email": "caiossxdgamer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
