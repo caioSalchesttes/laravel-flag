@@ -1,6 +1,6 @@
 <?php
 
-namespace Cos\LaravelFlag\Schema;
+namespace Caiosalchesttes\LaravelFlag;
 
 use Illuminate\Database\Eloquent\Builder;
 use Termwind\Components\Dd;

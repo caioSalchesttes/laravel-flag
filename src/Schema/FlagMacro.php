@@ -1,6 +1,6 @@
 <?php
 
-namespace Cos\LaravelFlag\Schema;
+namespace Caiosalchesttes\LaravelFlag\Schema;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\ServiceProvider;
