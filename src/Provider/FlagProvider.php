@@ -1,6 +1,6 @@
 <?php
 
-namespace App\LaravelFlag\Provider;
+namespace Cos\LaravelFlag\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
