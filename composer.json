@@ -14,5 +14,12 @@
     "require": {
         "php": ">=8.0",
         "illuminate/support": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caiosalchesttes\\LaravelFlag\\Schema\\FlagMacro"
+            ]
+        }
     }
 }
