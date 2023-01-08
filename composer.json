@@ -1,5 +1,6 @@
 {
     "name": "caiosalchesttes/laravel-flag",
+    "description": "Laravel Flag is a package that allows you to create flags in your database tables.",
     "autoload": {
         "psr-4": {
             "Caiosalchesttes\\LaravelFlag\\": "src/"
@@ -21,5 +22,6 @@
                 "Caiosalchesttes\\LaravelFlag\\Schema\\FlagMacro"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

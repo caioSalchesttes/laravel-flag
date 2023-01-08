@@ -23,6 +23,16 @@ trait Flag
         return $query->getModel()->save();
     }
 
+    public function scopeGetFlag($query, $key)
+    {
+        $array = $this->getFlags($query);
+        return $array[$key];
+    }
+
+    public function scopeGetFlags($query){
+        return $this->getFlags($query);
+    }
+
     public function scopeRemoveFlag($query, $key)
     {
         $array = $this->getFlags($query);
