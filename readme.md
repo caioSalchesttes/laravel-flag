@@ -84,7 +84,7 @@ Has flag
 
 ```php
 $user = User::find(1);
-$user->hasFag('key');
+$user->hasFlag('key');
 ```
 
 Get flag
